@@ -175,7 +175,33 @@ h4 {
   .portfolio-img {
     width: 100%;
   }
-  .nav-container {
+  #nav-bar {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main {
     width: 100%;
+  }
+  .portfolio-img {
+    width: 100%;
+  }
+  #nav-bar {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .main {
+    width: 100%;
+  }
+  .portfolio-img {
+    width: 100%;
+  }
+  #logo {
+    width: 50%;
+  }
+  #nav-bar {
+    width: 50%;
   }
 }
