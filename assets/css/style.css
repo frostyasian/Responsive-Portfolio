@@ -21,7 +21,7 @@ p {
 .nav-container {
   height: 75px;
   width: 960px;
-  margin: 0px 150px;
+  margin: 0px auto;
 }
 #logo {
   height: 75px;
@@ -199,9 +199,12 @@ h4 {
     width: 100%;
   }
   #logo {
-    width: 50%;
+    width: 100%;
   }
   #nav-bar {
-    width: 50%;
+    background-color: #ffffff;
+    float: none;
+    width: 100%;
+    padding: 20px;
   }
 }
